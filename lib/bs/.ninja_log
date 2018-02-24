@@ -1,0 +1,11 @@
+# ninja log v5
+0	47	1519515565	src/App.mlast	daadfd692a61a278
+2	49	1519515565	src/analytics.mlast	813e5bb0437636c1
+47	57	1519515565	src/App.mlast.d	2bb397245af7219d
+49	58	1519515565	src/analytics.mlast.d	5efe03682d844622
+0	19	1519515565	src/analytics.cmj	d89f30c9a29a215c
+0	19	1519515565	/Users/arnar/code/viskahq/avo-example-reason-react-native-counter/src/analytics.bs.js	d89f30c9a29a215c
+0	19	1519515565	src/analytics.cmi	d89f30c9a29a215c
+19	48	1519515565	src/App.cmj	ff898358bfbefe1a
+19	48	1519515565	/Users/arnar/code/viskahq/avo-example-reason-react-native-counter/src/App.bs.js	ff898358bfbefe1a
+19	48	1519515565	src/App.cmi	ff898358bfbefe1a

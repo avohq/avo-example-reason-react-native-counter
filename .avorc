@@ -1,0 +1,11 @@
+schema: analytics.avo
+targets:
+  Web:
+    language: Reason
+    dist: src/analytics.js
+    platform:
+      amplitude:
+        analyticsPackage: avo-react-native-amplitude-analytics
+        apiKeys:
+          dev: 26aeb7d9e9737f62d9bc9d10f7efdc9a
+          prod: 26aeb7d9e9737f62d9bc9d10f7efdc9a
