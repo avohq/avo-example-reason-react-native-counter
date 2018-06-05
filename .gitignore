@@ -53,3 +53,5 @@ buck-out/
 */fastlane/screenshots
 
 lib/
+.merlin
+.bsb.lock
