@@ -34,20 +34,6 @@ function make() {
                                         ReasonReact.element(/* None */0, /* None */0, Button$BsReactNative.make(/* None */0, /* None */0, /* None */0, /* Some */[(function () {
                                                         return Curry._1(send, /* Increment */0);
                                                       })], /* None */0, /* Some */["+"])(/* array */[]))
-                                      ])),
-                              ReasonReact.element(/* None */0, /* None */0, View$BsReactNative.make(/* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0, /* None */0)(/* array */[
-                                        ReasonReact.element(/* None */0, /* None */0, Button$BsReactNative.make(/* None */0, /* None */0, /* None */0, /* Some */[(function () {
-                                                        return AnalyticsRe.setup_({
-                                                                    useProductionKey: false,
-                                                                    validateProperties: true
-                                                                  }, /* () */0);
-                                                      })], /* None */0, /* Some */["Dev Mode"])(/* array */[])),
-                                        ReasonReact.element(/* None */0, /* None */0, Button$BsReactNative.make(/* None */0, /* None */0, /* None */0, /* Some */[(function () {
-                                                        return AnalyticsRe.setup_({
-                                                                    useProductionKey: true,
-                                                                    validateProperties: false
-                                                                  }, /* () */0);
-                                                      })], /* None */0, /* Some */["Prod Mode"])(/* array */[]))
                                       ]))
                             ]));
             }),

@@ -48,34 +48,6 @@ let make = _children => {
         <Text> (ReasonReact.string(string_of_int(state.counter))) </Text>
         <Button title="+" onPress=(_ => send(Increment)) />
       </View>
-      <View>
-        <Button
-          title="Dev Mode"
-          onPress=(
-            _ =>
-              AnalyticsRe.setup_(
-                ~options={
-                  "useProductionKey": false,
-                  "validateProperties": true,
-                },
-                (),
-              )
-          )
-        />
-        <Button
-          title="Prod Mode"
-          onPress=(
-            _ =>
-              AnalyticsRe.setup_(
-                ~options={
-                  "useProductionKey": true,
-                  "validateProperties": false,
-                },
-                (),
-              )
-          )
-        />
-      </View>
     </View>,
 };
 
