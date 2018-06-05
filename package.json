@@ -8,6 +8,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "avo": "^0.8.0",
     "avo-react-native-amplitude-analytics": "^1.1.0",
     "react": "16.2.0",
     "react-native": "0.53.3",
@@ -17,11 +18,11 @@
     "avo-assert-js": "1.0.0",
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
-    "bs-platform": "2.2.1",
+    "bs-platform": "3.1.4",
     "bs-react-native": "0.5.0",
     "jest": "22.4.2",
     "react-test-renderer": "16.2.0",
-    "reason-react": "0.3.2"
+    "reason-react": "0.4.1"
   },
   "jest": {
     "preset": "react-native"
